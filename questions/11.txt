@@ -1,0 +1,14 @@
+11. С помощью каких логических операторов можно комбинировать медиа-запросы? 
+Приведите примеры.
+
+and — логическое "И" 
+@media screen and (min-width: 600px) and (max-width: 1200px) {  
+}
+
+not — логическое "НЕ" 
+@media not screen and (color) {  
+}  
+
+запятая — логическое "ИЛИ"
+@media screen and (max-width: 600px), print {  
+}  
